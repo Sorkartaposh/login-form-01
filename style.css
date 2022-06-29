@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #05ACE1;
+    
+}
+.form-area {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin: 150px auto;
+    padding: 50px;
+    box-sizing: border-box;
+
+ 
+}
+.form-area input {
+    display: block;
+    width: 100%;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    border: none;
+    background-color:#F4F8F7 ;
+}
+.form-area  [type="submit"] {
+    width: 46%;
+    display:inline ;
+    margin:20px 5px ;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color:#27ACA8;
+    color: white;
+    font-weight: bold;
+
+}
+.form-area h1 {
+    text-align: center;
+    color: #4AB3A8;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+
+  
+}
+.form-area [value="sign in"] {
+    background-color: #e4ebe9;
+    color: rgb(112, 111, 111);
+}
+.form-area [value="sign in"]:hover {
+    background-color: #d3dad8;
+}
+.form-area [value="sign up"]:hover {
+    background-color: #21928e;
+}
+
+
+
